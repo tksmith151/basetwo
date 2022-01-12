@@ -1,0 +1,9 @@
+baseURL: "http://localhost:1313/"
+languageCode: "en-us"
+title: "Base Two"
+enableGitInfo: true
+
+params:
+  css: ["/css/site.css"]
+  js: ["/js/site.js"]
+

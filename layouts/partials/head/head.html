@@ -1,0 +1,7 @@
+<head>
+  <meta charset="UTF-8">
+  <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
+  {{ range .Site.Params.css }}
+  <link rel="stylesheet" href="{{ . }}">
+  {{ end }}
+</head>
